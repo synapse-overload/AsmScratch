@@ -1,0 +1,22 @@
+BASICS
+======
+
+INTEGER LITERALS: [{+|-} digits [radix]
+> radix = h, q/o, d, b, r, t (decimal alt), y (binary alt)
+> literalx beginning with letters must start with a 0 (e.g. 0A1h instead of A1h)
+
+CONSTANT INTEGER EXPRESSIONS (32bit)
+> operators (order): ( ), {+|-} (unary), {*|/}, MOD, {+|-} (add,subtract)
+
+REAL NUMBER LITERALS: [sign]integer.[integer] [exponent]
+> sign: {+|-}
+> exponent: E[{+|-}]integer
+
+CHARACTER LITERALS
+> must be enclosed in single or double quoutes
+
+RESERVED WORDS: instr mnemonics, reg names, directives (e.g. .data .code), attributes, operators, predefined symbols (e.g. @data)
+
+INSTRUCTIONS: [label: ] mnemonic [operands] [;comment]
+
+OPERANDS: can be registers, memory, integer expression, i/o port
